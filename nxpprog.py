@@ -326,6 +326,15 @@ cpu_parms = {
             "devid": 0x0444102B,
             "flash_prog_buffer_size" : 1024
         },
+        # TEST LPC1114FN28/102
+        "lpc1114/102" : {
+            "flash_sector" : flash_sector_lpc11xx,
+            "flash_prog_buffer_base" : 0x10000200,
+            "csum_vec": 7,
+            "devid": 0x1A40902B,
+            "flash_prog_buffer_size" : 1024,
+            "cpu_type": "thumb",
+        },
         # lpc18xx
         "lpc1817" : {
             "flash_sector" : flash_sector_lpc18xx,
